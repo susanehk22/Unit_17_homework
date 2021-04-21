@@ -1,0 +1,154 @@
+body {
+    font-family: "Rosario", sans-serif;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+#navigation {
+    display: flex;
+    width: 75%;
+    margin-left: 5%;
+}
+
+ul {
+    display: block;
+    padding-inline-start: 5px;
+}
+
+#heroGrid {
+    margin: 0px 5%;
+    min-height: 500px;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 75% 25%;
+    padding: 5px;
+  }
+
+.image {
+    float: inline-end;
+}
+
+.susie-img {
+    width: 100%;
+}
+
+li {
+    display: inline;
+    padding: 22px;
+}
+
+.container {
+    position: relative;
+    color: black;
+}
+
+.divider {
+    display: block;
+    background-color: #F5F5F5;
+    padding: 5px;
+    height: 500px;
+    width: 100%;
+
+}
+
+.aboutMe {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.susieKim {
+    position: absolute;
+    top: 275px;
+    left: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    font-style:italic;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.polymath {
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    font-size: 32px;
+}
+
+.noun {
+    position: absolute;
+    top: 645px;
+    left: 50px;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.definition {
+    position: absolute;
+    top: 675px;
+    left: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+#grey-background {
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 5px;
+    z-index: 1;
+}
+
+#contentGrid {
+    margin: 0px 5%;
+        margin-top: 0px;
+        margin-right: 5%;
+        margin-bottom: 0px;
+        margin-left: 5%;
+    display: grid;
+    grid-template-rows: 550px 550px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "lumberJill illustrator"
+    "musician rollerskater"
+    ;
+}
+
+.categoryGridArea {
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    display: grid;
+    align-content: start;
+}
+
+.heading {
+    color: #29A9B1;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    padding: 5px;
+    background-color: #C6CCC6;
+    color: white;
+}
+
+.logo-transp {
+    margin-left: 5%;
+}
+
+.homeButton {
+    float: right;
+    position: absolute;
+    left: 1705px;
+    z-index: 1;
+}
